@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    // ===== 必要に応じてコメントアウトしてください ===== //
+    "noImplicitReturns": true,
+    "noImplicitOverride": true,
+    // "noUnusedLocals": true,
+    // "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true,
+    "noPropertyAccessFromIndexSignature": true,
+    // ===== 必要に応じてコメントアウトしてください ===== //
+
+    "module": "nodenext",
+    "target": "esnext",
+    "types": ["node"],
+
+    "noUncheckedIndexedAccess": true,
+    "exactOptionalPropertyTypes": true,
+
+    "strict": true,
+    "verbatimModuleSyntax": true,
+    "isolatedModules": true,
+    "noUncheckedSideEffectImports": true,
+    "moduleDetection": "force",
+    "skipLibCheck": true,
+    "paths": {
+      "@/src/*": ["./src/*"],
+      "@/lib/*": ["./lib/*"]
+    }
+  },
+  "include": ["src", "lib"]
+}

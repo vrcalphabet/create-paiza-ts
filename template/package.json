@@ -1,0 +1,22 @@
+{
+  "name": "paiza-ts-playground",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "start": "paiza-ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "type": "module",
+  "devDependencies": {
+    "@trivago/prettier-plugin-sort-imports": "^6.0.2",
+    "@types/node": "^25.6.0",
+    "prettier": "^3.8.1"
+  },
+  "dependencies": {
+    "@vrcalphabet/paiza-ts": "^1.0.3"
+  }
+}
