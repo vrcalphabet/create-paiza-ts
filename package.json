@@ -6,7 +6,8 @@
     "create-paiza-ts": "./bin/main.js"
   },
   "files": [
-    "dist"
+    "bin",
+    "template"
   ],
   "keywords": [],
   "author": "vrcalphabet",
