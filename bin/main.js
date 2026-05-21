@@ -9,7 +9,9 @@ const targetDir = process.cwd()
 const files = fs.readdirSync(targetDir)
 if (files.length > 0) {
   console.error('空のディレクトリで実行してください。処理を停止します。')
-  console.error("既に作成したプロジェクトの場合は、代わりに npm start を実行してください。")
+  console.error(
+    '既に作成したプロジェクトの場合は、代わりに npm start を実行してください。',
+  )
   process.exit(1)
 }
 
