@@ -9,7 +9,8 @@
     "noPropertyAccessFromIndexSignature": true,
     // ===== 必要に応じてコメントアウトしてください ===== //
 
-    "module": "nodenext",
+    "module": "preserve",
+    "moduleResolution": "bundler",
     "target": "esnext",
     "types": ["node"],
 
