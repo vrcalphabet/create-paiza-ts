@@ -17,6 +17,6 @@
     "prettier": "^3.8.1"
   },
   "dependencies": {
-    "@vrcalphabet/paiza-ts": "^1.0.3"
+    "@vrcalphabet/paiza-ts": "^1.1.0"
   }
 }
