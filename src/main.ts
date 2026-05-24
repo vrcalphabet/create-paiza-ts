@@ -22,7 +22,7 @@ if (files.length > 0) {
 await copyDirectory(templateDir, targetDir)
 
 console.log('> npm i')
-await runNpmCommand(['i'], 'pipe', (line) => {
+await runNpmCommand(['i', '--loglevel=info'], 'pipe', (line) => {
   if (line.startsWith('npm info')) return
 
   if (line.startsWith('npm http')) {
