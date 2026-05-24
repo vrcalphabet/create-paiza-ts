@@ -24,8 +24,10 @@
     "moduleDetection": "force",
     "skipLibCheck": true,
     "paths": {
-      "@/src/*": ["./src/*"],
-      "@/lib/*": ["./lib/*"]
+      "@/src": ["./src"],
+      "@/src*": ["./src*"],
+      "@/lib": ["./lib"],
+      "@/lib*": ["./lib*"]
     }
   },
   "include": ["src", "lib"]
