@@ -1,5 +1,20 @@
 // ここにはチャレンジ問題のコードを書く
-import fs from 'node:fs'
+import { parseInput } from '@vrcalphabet/paiza-ts-input-parser'
 
-const lines = fs.readFileSync(0, 'utf8').split('\n')
-console.log(lines[0]!)
+const $ = parseInput(`
+  +n
+  logs[type={C|R|U|D}, name, +time][n]
+`)
+
+const typeMap = {
+  C: 'CREATE',
+  R: 'READ',
+  U: 'UPDATE',
+  D: 'DELETE',
+}
+
+for (const log of $.logs) {
+  const time = new Date(log.time * 1000).toLocaleString('ja-JP')
+  const type = typeMap[log.type]
+  console.log(`[${time}] ${type}: ${log.name}`)
+}

@@ -14,10 +14,10 @@
   "devDependencies": {
     "@trivago/prettier-plugin-sort-imports": "^6.0.2",
     "@types/node": "^25.6.0",
-    "@vrcalphabet/paiza-ts": "^1.1.0",
+    "@vrcalphabet/paiza-ts": "^1.3.0",
     "prettier": "^3.8.1"
   },
   "dependencies": {
-    "@vrcalphabet/paiza-ts-input-parser": "^2.0.1"
+    "@vrcalphabet/paiza-ts-input-parser": "^2.3.1"
   }
 }
