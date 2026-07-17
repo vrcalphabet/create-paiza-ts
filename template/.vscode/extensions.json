@@ -1,0 +1,8 @@
+{
+  "recommendations": [
+    "ms-ceintl.vscode-language-pack-ja",
+    "streetsidesoftware.code-spell-checker",
+    "esbenp.prettier-vscode",
+    "mosapride.zenkaku"
+  ]
+}

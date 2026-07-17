@@ -1,3 +1,25 @@
 {
-  "cSpell.words": ["paiza", "vrcalphabet"]
+  "editor.minimap.enabled": false,
+  "editor.trimAutoWhitespace": false,
+  "cSpell.words": ["paiza", "vrcalphabet"],
+  "editor.unicodeHighlight.nonBasicASCII": false,
+  "editor.formatOnSave": true,
+  "editor.fontFamily": "'Fira Code', Consolas, monospace",
+  "terminal.integrated.fontLigatures.enabled": true,
+  "editor.fontLigatures": true,
+  "js/ts.updateImportsOnFileMove.enabled": "always",
+  "explorer.fileNesting.enabled": true,
+  "explorer.fileNesting.expand": false,
+  "explorer.fileNesting.patterns": {
+    "package.json": "tsconfig.json, .prettierrc"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "files.exclude": {
+    "node_modules/": true,
+    ".data/{puppeteer,temp}/": true,
+    ".vscode/": true,
+    "package-lock.json": true
+  }
 }
