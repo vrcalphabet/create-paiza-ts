@@ -13,6 +13,8 @@ const typeMap = {
   D: 'DELETE',
 }
 
+//! コメントを提出後のコードに残したい場合は、びっくりマークを付ける
+// このコメントは提出後のコードに残らない
 for (const log of $.logs) {
   const time = new Date(log.time * 1000).toLocaleString('ja-JP')
   const type = typeMap[log.type]
